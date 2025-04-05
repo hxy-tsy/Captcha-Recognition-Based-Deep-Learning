@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>592</width>
+    <height>577</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QPlainTextEdit" name="plainTextEdit">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>20</y>
+      <width>461</width>
+      <height>471</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 25 12pt &quot;Adobe 宋体 Std L&quot;;</string>
+    </property>
+    <property name="plainText">
+     <string>           随着互联网的快速发展，网站验证码作为一种重要的安全防护措施，被广泛应用于用户注册、登录、评论等环节，以防止恶意注册、刷票、攻击等行为。传统的验证码识别方法，如光学字符识别（OCR）和规则匹配，在面对复杂、多变的验证码类型时，识别准确率较低，难以满足实际应用需求。近年来，深度学习技术的发展为验证码识别提供了新的思路。基于深度学习的验证码识别系统，能够有效识别各种类型的验证码，具有识别准确率高、泛化能力强等优点，成为该领域的研究热点。
+          在国外，深度学习技术在验证码识别领域的研究起步较早，已经取得了显著的研究成果。许多研究团队利用卷积神经网络（CNN）和循环神经网络（RNN）等深度学习模型，对验证码图像进行特征提取和分类，实现了高精度的识别效果。有研究利用CNN对字符型验证码进行识别，通过大量的训练数据优化模型参数，取得了较高的识别准确率。还有研究将RNN应用于验证码识别中，利用其处理序列数据的优势，提高了对复杂验证码的识别能力。
+           在国内，深度学习技术在验证码识别领域的研究也逐渐兴起。许多学者和科研机构致力于将深度学习技术应用于验证码识别系统中，以提高识别准确率和系统性能。一些研究团队利用深度学习框架（如TensorFlow、PyTorch等）搭建验证码识别模型，并通过优化模型结构和参数，取得了良好的识别效果。同时，还有一些研究将深度学习技术与其他图像处理技术相结合，进一步提高了验证码识别的准确性和鲁棒性。
+</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>200</x>
+      <y>500</y>
+      <width>91</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>确定</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
